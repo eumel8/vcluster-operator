@@ -1,0 +1,9 @@
+apiVersion: vcluster.zacharyseguin.ca/v1alpha1
+kind: VirtualCluster
+metadata:
+  name: vc1
+spec:
+  controlPlane:
+    image:
+      repository: mtr.devops.telekom.de/rancher/k3s
+      tag: v1.25.4-k3s1
